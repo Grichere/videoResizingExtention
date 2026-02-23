@@ -1,5 +1,14 @@
 {
   "manifest_version": 2,
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "video-resizer@kcl.ac.uk",
+      "data_collection_permissions": {
+        "required": ["none"]
+      }
+
+    }
+  },
   "name": "IFrame Video Resizer",
   "version": "1.0.1",
   "description": "Resize iframes/videos per site via settings, designed for uni websites, not tested extensively beyond",
